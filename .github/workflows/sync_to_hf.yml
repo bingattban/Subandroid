@@ -15,4 +15,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://bingattban515:$HF_TOKEN@huggingface.co/spaces/bingattban515/Subbot main
+        run: git push --force https://bingattban:$HF_TOKEN@huggingface.co/spaces/bingattban/Subbot main
